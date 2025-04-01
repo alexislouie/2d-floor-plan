@@ -17,7 +17,13 @@ export default function Experience({ isOrthographic }) {
 
 	return (
 		<>
-			<OrbitControls enabled />
+			<OrbitControls
+				enablePan={false}
+				enableRotate={!isOrthographic}
+				// prevent damping so floor plan is not off-center
+				// that if user toggles to floor plan while spinning model
+				enableDamping={false}
+			/>
 			<directionalLight position={[1, 2, 3]} intensity={4.5} />
 			<ambientLight intensity={1.5} />
 			<orthographicCamera />

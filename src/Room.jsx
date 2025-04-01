@@ -86,7 +86,6 @@ export default function Room({ isOrthographic }) {
 				if (!maxPosYBoundingBox) {
 					setMaxPosYBoundingBox(box.max.z);
 				}
-				console.log(box);
 			}
 		}
 	}, [groupRef.current, isOrthographic, boundingBoxHeight, boundingBoxWidth]);
