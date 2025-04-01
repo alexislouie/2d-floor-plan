@@ -1,0 +1,370 @@
+{
+	"windows": [
+		{
+			"polygonCorners": [],
+			"transform": [
+				0.62669945, 0, -0.7792611, 0, 0, 1, 0, 0, 0.7792611, 0, 0.62669945, 0,
+				-4.0832477, -0.010127503, -2.9597096, 1
+			],
+			"identifier": "AC736B5E-CE35-453A-9793-51788D528134",
+			"category": { "window": {} },
+			"parentIdentifier": "25298711-018A-4199-BD05-F59C1CFA00E6",
+			"curve": null,
+			"dimensions": [1.8502038, 1.1171043, 0],
+			"confidence": { "high": {} },
+			"completedEdges": [],
+			"story": 0
+		}
+	],
+	"story": 0,
+	"doors": [],
+	"floors": [
+		{
+			"transform": [
+				0.77926105, 0, 0.6266995, 0, 0.62669945, 0, -0.77926105, 0, 0, 1, 0, 0,
+				-2.482826, -1.5395511, -0.82005465, 1
+			],
+			"parentIdentifier": null,
+			"story": 0,
+			"polygonCorners": [
+				[2.5223386, -0.39710438, 1.1920929e-7],
+				[-0.18491054, -0.39710462, 1.1920929e-7],
+				[-0.18491054, -2.0236654, 1.1920929e-7],
+				[-1.8563447, -2.0236654, 1.1920929e-7],
+				[-2.588067, -2.0236654, 1.1920929e-7],
+				[-2.588067, 1.8861994, 1.1920929e-7],
+				[-2.5880675, 2.0056062, 1.1920929e-7],
+				[-0.9282336, 2.0056062, 1.1920929e-7],
+				[2.5223386, 2.0056064, 1.1920929e-7]
+			],
+			"dimensions": [5.176134, 4.047332, 0],
+			"curve": null,
+			"completedEdges": [],
+			"category": { "floor": {} },
+			"confidence": { "high": {} },
+			"identifier": "05ED9937-EDC0-4172-987D-15696681EE96"
+		}
+	],
+	"objects": [
+		{
+			"story": 0,
+			"dimensions": [1.4107257, 1.0814772, 0.37351006],
+			"attributes": { "StorageType": "cabinet" },
+			"confidence": { "low": {} },
+			"parentIdentifier": null,
+			"category": { "storage": {} },
+			"transform": [
+				0.779261, 0, 0.62669945, 0, 0, 1, 0, 0, -0.6266994, 0, 0.779261, 0,
+				-0.06151062, 0.35394683, -1.2068491, 1
+			],
+			"identifier": "9F83944A-0B4A-42A9-8977-8A98493079A4"
+		},
+		{
+			"identifier": "8BF37199-1C6B-4B6C-881A-776C6C9BCB00",
+			"dimensions": [0.7438961, 0.100000024, 0.664101],
+			"story": 0,
+			"transform": [
+				-0.7792611, 0, -0.62669945, 0, 0, 0.99999994, 0, 0, 0.6266994, 0,
+				-0.77926105, 0, -1.7652239, -0.55055994, -0.159461, 1
+			],
+			"category": { "stove": {} },
+			"confidence": { "low": {} },
+			"attributes": {},
+			"parentIdentifier": null
+		},
+		{
+			"parentIdentifier": null,
+			"confidence": { "low": {} },
+			"story": 0,
+			"identifier": "E74F1F8D-BFB9-4E7F-9F8D-A390E92FF0A2",
+			"transform": [
+				-0.77926105, 0, -0.62669957, 0, 0, 1.0000001, 0, 0, 0.6266996, 0,
+				-0.7792612, 0, -1.7122052, 0.5892726, 0.0648334, 1
+			],
+			"attributes": { "StorageType": "cabinet" },
+			"dimensions": [1.138491, 0.61082566, 0.38098717],
+			"category": { "storage": {} }
+		},
+		{
+			"parentIdentifier": null,
+			"transform": [
+				0.779261, 0, 0.6266995, 0, 0, 1, 0, 0, -0.62669945, 0, 0.779261, 0,
+				-1.3839858, -0.3224329, -2.093673, 1
+			],
+			"attributes": { "StorageType": "cabinet" },
+			"confidence": { "medium": {} },
+			"identifier": "3B0B2147-7114-4B61-A104-2CD886100B2C",
+			"story": 0,
+			"dimensions": [0.5567883, 2.4342365, 0.6489643],
+			"category": { "storage": {} }
+		},
+		{
+			"dimensions": [0.48004144, 0.845898, 0.5585327],
+			"category": { "chair": {} },
+			"confidence": { "low": {} },
+			"transform": [
+				-0.6266988, 0, 0.77926165, 0, 0, 1, 0, 0, -0.77926165, 0, -0.6266988, 0,
+				-2.6529038, -1.1166022, -2.3753805, 1
+			],
+			"identifier": "88B5EF90-CA11-4491-B027-FF6E3966BFF2",
+			"parentIdentifier": "49D0B2D1-6CEE-4EA3-B722-B49A0F72DB43",
+			"story": 0,
+			"attributes": {
+				"ChairBackType": "existing",
+				"ChairType": "dining",
+				"ChairLegType": "four",
+				"ChairArmType": "missing"
+			}
+		},
+		{
+			"transform": [
+				-0.7792611, 0, -0.62669945, 0, 0, 1, 0, 0, 0.62669945, 0, -0.7792611, 0,
+				-2.4483213, 0.38456395, -0.53276104, 1
+			],
+			"story": 0,
+			"category": { "storage": {} },
+			"confidence": { "low": {} },
+			"dimensions": [0.75786674, 1.0202429, 0.3897039],
+			"identifier": "F8A6E6F0-4CEF-43B6-9B64-A20B6C528433",
+			"parentIdentifier": null,
+			"attributes": { "StorageType": "cabinet" }
+		},
+		{
+			"dimensions": [1.4313991, 0.924101, 0.6519578],
+			"transform": [
+				0.779261, 0, 0.62669945, 0, 0, 1, 0, 0, -0.62669945, 0, 0.77926093, 0,
+				-0.13996395, -1.0775006, -1.0912819, 1
+			],
+			"parentIdentifier": null,
+			"confidence": { "medium": {} },
+			"category": { "storage": {} },
+			"story": 0,
+			"attributes": { "StorageType": "cabinet" },
+			"identifier": "825D4326-0080-43A5-86BC-BA02C5BD05A8"
+		},
+		{
+			"confidence": { "medium": {} },
+			"category": { "storage": {} },
+			"attributes": { "StorageType": "cabinet" },
+			"story": 0,
+			"transform": [
+				-0.77926105, 0, -0.62669957, 0, 0, 0.99999994, 0, 0, 0.62669945, 0,
+				-0.779261, 0, -1.3134061, -1.0792096, 0.17261225, 1
+			],
+			"dimensions": [0.3773589, 0.920683, 0.6594239],
+			"parentIdentifier": null,
+			"identifier": "9DBE168B-5CD3-49BD-8C27-6DFDF2A2C646"
+		},
+		{
+			"confidence": { "low": {} },
+			"parentIdentifier": "49D0B2D1-6CEE-4EA3-B722-B49A0F72DB43",
+			"dimensions": [0.48004118, 0.845898, 0.55853254],
+			"identifier": "1AC45EAA-F3A6-47D9-B1E2-6B5E5712A8D5",
+			"attributes": {
+				"ChairArmType": "missing",
+				"ChairBackType": "existing",
+				"ChairType": "dining",
+				"ChairLegType": "four"
+			},
+			"category": { "chair": {} },
+			"transform": [
+				-0.6266823, 0, 0.779275, 0, 0, 1, 0, 0, -0.779275, 0, -0.6266823, 0,
+				-3.1910567, -1.1166022, -1.7062219, 1
+			],
+			"story": 0
+		},
+		{
+			"attributes": {},
+			"dimensions": [0.59985346, 0.23532128, 0.42834476],
+			"confidence": { "low": {} },
+			"identifier": "83BC611A-0CA6-4ECB-8750-8AFA6445C7FD",
+			"parentIdentifier": "825D4326-0080-43A5-86BC-BA02C5BD05A8",
+			"story": 0,
+			"category": { "sink": {} },
+			"transform": [
+				0.77926105, 0, 0.62669945, 0, 0, 1, 0, 0, -0.6266994, 0, 0.77926105, 0,
+				-0.2366085, -0.73311085, -1.1612453, 1
+			]
+		},
+		{
+			"transform": [
+				-0.7792611, 0, -0.62669945, 0, 0, 0.99999994, 0, 0, 0.6266994, 0,
+				-0.77926105, 0, -0.82742256, -0.689202, 0.51090455, 1
+			],
+			"confidence": { "medium": {} },
+			"category": { "refrigerator": {} },
+			"dimensions": [0.7964712, 1.7006981, 0.79476005],
+			"attributes": {},
+			"parentIdentifier": null,
+			"story": 0,
+			"identifier": "F35635C9-57B2-4B48-95C9-17DC349AC839"
+		},
+		{
+			"identifier": "7373FCFE-905D-4508-8247-7D1BFC887FE8",
+			"parentIdentifier": null,
+			"transform": [
+				-0.7792611, 0, -0.62669945, 0, 0, 1, 0, 0, 0.62669945, 0, -0.7792611, 0,
+				-1.7652239, -1.0700555, -0.159461, 1
+			],
+			"category": { "oven": {} },
+			"attributes": {},
+			"story": 0,
+			"dimensions": [0.7438961, 0.9389911, 0.664101],
+			"confidence": { "low": {} }
+		},
+		{
+			"parentIdentifier": null,
+			"category": { "dishwasher": {} },
+			"story": 0,
+			"confidence": { "medium": {} },
+			"identifier": "8FD3A5A5-73DF-42EE-8B1A-75F1C0C0415C",
+			"attributes": {},
+			"dimensions": [0.60205054, 2.4342365, 0.6463342],
+			"transform": [
+				0.7792612, 0, 0.6266993, 0, 0, 1, 0, 0, -0.6266993, 0, 0.7792612, 0,
+				-0.9316475, -0.3224329, -1.7315801, 1
+			]
+		},
+		{
+			"transform": [
+				0.62669945, 0, -0.779261, 0, 0, 0.99999994, 0, 0, 0.779261, 0,
+				0.62669945, 0, -3.2609754, -1.1400744, -2.313428, 1
+			],
+			"category": { "table": {} },
+			"identifier": "49D0B2D1-6CEE-4EA3-B722-B49A0F72DB43",
+			"parentIdentifier": null,
+			"story": 0,
+			"confidence": { "high": {} },
+			"attributes": { "TableType": "dining", "TableShapeType": "rectangular" },
+			"dimensions": [1.7174181, 0.79895365, 1.0376011]
+		},
+		{
+			"story": 0,
+			"parentIdentifier": null,
+			"category": { "storage": {} },
+			"transform": [
+				-0.779261, 0, -0.62669957, 0, 0, 1.0000001, 0, 0, 0.6266996, 0,
+				-0.77926105, 0, -0.96045315, 0.5892726, 0.6750522, 1
+			],
+			"dimensions": [0.7980597, 0.61082566, 0.37219197],
+			"attributes": { "StorageType": "cabinet" },
+			"identifier": "E2FD00BB-976D-476D-8F9E-9AD568CF3E65",
+			"confidence": { "low": {} }
+		},
+		{
+			"category": { "storage": {} },
+			"transform": [
+				-0.7792612, 0, -0.6266993, 0, 0, 0.99999994, 0, 0, 0.62669927, 0,
+				-0.7792611, 0, -2.3750372, -1.0792096, -0.630437, 1
+			],
+			"confidence": { "medium": {} },
+			"parentIdentifier": null,
+			"dimensions": [0.79802495, 0.920683, 0.6337872],
+			"story": 0,
+			"attributes": { "StorageType": "cabinet" },
+			"identifier": "A4D152FC-409B-4C69-858B-0CEBA13F66E1"
+		}
+	],
+	"version": 2,
+	"openings": [
+		{
+			"confidence": { "high": {} },
+			"polygonCorners": [],
+			"story": 0,
+			"transform": [
+				-0.62669945, 0, 0.779261, 0, 0, 0.99999994, 0, 0, -0.779261, 0,
+				-0.62669957, 0, -0.04705936, -0.5095511, 0.17602144, 1
+			],
+			"identifier": "68762E33-1372-4BF7-8716-0837B53CCDE7",
+			"parentIdentifier": "A6BFC6C7-5391-491A-B77D-F2E741A5D755",
+			"dimensions": [0.74875456, 2.06, 0],
+			"completedEdges": [],
+			"curve": null,
+			"category": { "opening": {} }
+		}
+	],
+	"sections": [
+		{
+			"center": [-1.2022805, -0.31558573, -0.8531336],
+			"story": 0,
+			"label": "kitchen"
+		}
+	],
+	"walls": [
+		{
+			"category": { "wall": {} },
+			"identifier": "25298711-018A-4199-BD05-F59C1CFA00E6",
+			"polygonCorners": [],
+			"completedEdges": [],
+			"curve": null,
+			"parentIdentifier": null,
+			"story": 0,
+			"dimensions": [3.9098647, 2.448, 0],
+			"confidence": { "high": {} },
+			"transform": [
+				0.6266994, 0, -0.7792611, 0, 0, 1.0000001, 0, 0, 0.7792611, 0,
+				0.6266994, 0, -4.542681, -0.3155511, -2.388434, 1
+			]
+		},
+		{
+			"parentIdentifier": null,
+			"story": 0,
+			"curve": null,
+			"transform": [
+				0.77926105, 0, 0.6266994, 0, 0, 1.0000001, 0, 0, -0.62669945, 0,
+				0.7792611, 0, -0.6048019, -0.3155511, -1.8834332, 1
+			],
+			"identifier": "004D04B3-8C06-4D2D-BD20-8E1E956FC80E",
+			"dimensions": [3.4505723, 2.448, 0],
+			"completedEdges": [],
+			"polygonCorners": [],
+			"confidence": { "high": {} },
+			"category": { "wall": {} }
+		},
+		{
+			"identifier": "65D5046D-7D14-4AD9-AD1B-D1BDFBAAA86F",
+			"parentIdentifier": null,
+			"completedEdges": [],
+			"polygonCorners": [],
+			"transform": [
+				-0.77926105, 0, -0.62669945, 0, 0, 1.0000001, 0, 0, 0.6266994, 0,
+				-0.77926105, 0, -1.8209579, -0.3155511, 0.22182573, 1
+			],
+			"confidence": { "high": {} },
+			"category": { "wall": {} },
+			"story": 0,
+			"dimensions": [2.7072492, 2.448, 0],
+			"curve": null
+		},
+		{
+			"parentIdentifier": null,
+			"category": { "wall": {} },
+			"transform": [
+				-0.7792611, 0, -0.6266994, 0, 0, 1.0000001, 0, 0, 0.6266994, 0,
+				-0.7792611, 0, -5.4827347, -0.3155511, -0.63574624, 1
+			],
+			"polygonCorners": [],
+			"curve": null,
+			"story": 0,
+			"identifier": "5B16AD87-E2D5-4768-B5AC-7FFA7354E1E0",
+			"completedEdges": [],
+			"dimensions": [0.7317225, 2.448, 0],
+			"confidence": { "high": {} }
+		},
+		{
+			"parentIdentifier": null,
+			"category": { "wall": {} },
+			"curve": null,
+			"story": 0,
+			"identifier": "A6BFC6C7-5391-491A-B77D-F2E741A5D755",
+			"dimensions": [2.4027107, 2.448, 0],
+			"confidence": { "high": {} },
+			"polygonCorners": [],
+			"completedEdges": [],
+			"transform": [
+				-0.6266994, 0, 0.77926105, 0, 0, 1.0000001, 0, 0, -0.77926105, 0,
+				-0.62669945, 0, -0.013242263, -0.3155511, 0.13397203, 1
+			]
+		}
+	]
+}
