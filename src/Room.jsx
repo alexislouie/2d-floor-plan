@@ -6,7 +6,7 @@ import Opening from './Opening';
 import { useEffect, useRef, useState } from 'react';
 import * as THREE from 'three';
 import { getAverageDirectionXZ } from './lib/transformUtils';
-import { Html, TransformControls, useHelper } from '@react-three/drei';
+import { Html } from '@react-three/drei';
 import { useControls } from 'leva';
 
 const WALL_DEPTH = 0.1;
@@ -16,7 +16,6 @@ export default function Room({ isOrthographic }) {
 	const [maxPosYBoundingBox, setMaxPosYBoundingBox] = useState(0);
 	const [boundingBoxHeight, setBoundingBoxHeight] = useState(0);
 	const [boundingBoxWidth, setBoundingBoxWidth] = useState(0);
-	const [positions, setPositions] = useState([]);
 
 	const controls = useControls({
 		wallColor: {
@@ -36,7 +35,6 @@ export default function Room({ isOrthographic }) {
 
 	const groupRef = useRef();
 	const meshRef = useRef();
-	// useHelper(meshRef, THREE.BoxHelper, 'red');
 
 	// Transform Mesh using a BoundingBox
 	useEffect(() => {
@@ -59,20 +57,6 @@ export default function Room({ isOrthographic }) {
 
 			const min = box.min;
 			const max = box.max;
-
-			// Compute 8 corners of the bounding box
-			// const corners = [
-			// 	new THREE.Vector3(min.x, min.y, min.z),
-			// 	new THREE.Vector3(max.x, min.y, min.z),
-			// 	new THREE.Vector3(min.x, max.y, min.z),
-			// 	new THREE.Vector3(max.x, max.y, min.z),
-			// 	new THREE.Vector3(min.x, min.y, max.z),
-			// 	new THREE.Vector3(max.x, min.y, max.z),
-			// 	new THREE.Vector3(min.x, max.y, max.z),
-			// 	new THREE.Vector3(max.x, max.y, max.z),
-			// ];
-			// console.log(corners);
-			// setPositions(corners);
 
 			// save the minX and maxY of the bounding box of the Ortho view
 			// to use as height and width measurements
@@ -159,11 +143,6 @@ export default function Room({ isOrthographic }) {
 					))}
 				</group>
 			</mesh>
-			{positions.map((pos, i) => (
-				<Html key={`labeled-corners-${i}`} position={pos.toArray()} center>
-					<div>Corner {i}</div>
-				</Html>
-			))}
 			{isOrthographic && (
 				<>
 					<Html
@@ -179,7 +158,6 @@ export default function Room({ isOrthographic }) {
 					</Html>
 				</>
 			)}
-			{/* <TransformControls object={meshRef} /> */}
 		</>
 	);
 }
